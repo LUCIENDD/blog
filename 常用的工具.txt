@@ -1,4 +1,4 @@
-¿ª·¢IDE
+ï»¿å¼€å‘IDE
 phpstorm 
 webstorm
 pycharm
@@ -6,11 +6,11 @@ myeclipse
 hbuilder
 visual studio 2015
 
-Êı¾İ¿â
+æ•°æ®åº“
 mysql
 navicat
 
-·şÎñÆ÷
+æœåŠ¡å™¨
 tomcat
 apache
 nginx
