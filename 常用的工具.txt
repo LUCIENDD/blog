@@ -1,0 +1,17 @@
+开发IDE
+phpstorm 
+webstorm
+pycharm
+myeclipse
+hbuilder
+visual studio 2015
+
+数据库
+mysql
+navicat
+
+服务器
+tomcat
+apache
+nginx
+
