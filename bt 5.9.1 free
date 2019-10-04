@@ -1,0 +1,19 @@
+安装宝塔5.9.1免费版
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+
+升级专业版
+wget -O update.sh http://download.bt.cn/install/update_pro.sh && bash update.sh pro
+
+修改文件
+nano /www/server/panel/class/common.py
+修改164行
+data = panelAuth.panelAuth().get_order_status(None);
+修改为
+data = {'status' : True,'msg' : {'endtime' : 32503651199 }}
+
+完成后，进入/ www / server / panel / data新建一个文件文件名为：userInfo.json内容空的，如果存在这个文件的删掉重新新建文件。
+执行：
+echo > /www/server/panel/data/userInfo.json
+
+最后输入命令重启宝塔完美嗨皮!!
+/etc/init.d/bt restart
